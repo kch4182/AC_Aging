@@ -1,0 +1,19 @@
+===> APP명 수정할 경우 1.App_설치_자동화 폴더 개인 PC HDD or SSD 에 복사 후 하기 Step 대로 진행
+
+1. Android_STB_App_자동설치.py > 우클릭 > 연결 프로그램 > 메모장 등 편집기로 파일 Open 
+
+2.상단에 있는 코드 [ ] 대괄호 안에 있는 App 명 List 형식에 맞추어("App명" or 'App명')  수정
+'''ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡApp_Name 수정ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ'''
+# 1. 설치할 App 
+apps_to_install = ["Movies&TV","NETFLI", "USA today", "FOX Sports", "Accu weather", "Plex", "TED TV", "PBS KIDS Video", 
+                   "Tune in", "VLC", "Kitchen Stories", "Amazon Video", "Haystack News", "Kodi", "The Weather Network", "Weathe", 
+                   "Photo Gallery and Screensaver","AirAttack", "Dailymotion", "CNBC"]
+
+'''ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡApp_Name 수정ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ'''
+
+3. App 명 수정 후 저장하여 Android_STB_App_자동설치.py 실행
+
+
+
+
+====> NETFLI, Weathe 등 몇몇 App -> Full Name으로 검색 시 이름이 유사한 앱으로 분류 되어 해당 설치 List에 해당 App Name으로 해 놓음

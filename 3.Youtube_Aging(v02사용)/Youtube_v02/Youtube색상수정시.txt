@@ -1,0 +1,27 @@
+1. 1)Youtube.GUI.py 파일, 2)Youtube_방치_Aging 폴더 개인 PC Disk에 복사
+
+2. Youtube_GUI.py 파일 우클릭 > 연결 프로그램 > 메모장 등 편집기 선택해서 Open
+
+3. 하기 변수 값 코드 수정
+	1) IRIS 화면 끊김 RGB 변수
+	2) SMARTVIEWER 화면 끊김 RGB 변수
+	3) IRIS Youtube 색상 RGB 변수  
+	4) SmartViewer Youtube 색상 RGB 변수
+
+'''******STB 수정 할 수 있음 -> 수정 시 개인 PC에 복사 후 수정*****'''
+BLUE_RGB_IRIS = (2, 231, 5)                # 1. IRIS 화면 Blue
+BLUE_RGB_SMART = (8, 8, 252)           # 2. SmartViewer화면 Blue
+YOUTUBE_24H_IRIS = (220,151,171)      # 3. Youtube 색상(IRIS)
+YOUTUBE_24H_SMART = (253,167,196)  # 4. Youtube 색상(SMART)
+'''******STB 수정 할 수 있음 -> 수정 시 개인 PC에 복사 후 수정*****'''
+
+4. 저장 후 Youtube_GUI.py 실행
+
+
+
+
+=====> 
+좌표 설정은 Youtube_방치_Aging 폴더 > Youtube_v02.py 파일에  x_move, y_move 변수 수정 하면 됨
+현재 값 
+x_move = 300
+y_move = 100으로 되어 있음

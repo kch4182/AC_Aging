@@ -1,0 +1,6 @@
+1. STB, PC, AP 연결
+  > STB와 PC만 연결 해도 가능 -> STB IP Static 설정 필요할 수도 있음
+2. STB 개발자 모드 > Debug ON 
+3. 해당 python 파일 실행
+4. STB IP 입력
+5. 바탕화면 생성된 Log 폴더 확인
