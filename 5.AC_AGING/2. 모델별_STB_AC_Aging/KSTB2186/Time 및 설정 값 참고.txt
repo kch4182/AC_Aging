@@ -1,0 +1,18 @@
+삼성 DVR 에서 확인---------
+On Time - 70sec
+Off Time - 5sec
+횟수 500회
+
+2025.02.18 확인 - 10회 이상
+
+
+------2025.03.07------
+삼성 DVR에서 확인
+Menu Transparancy : 0%
+Banner Time : 10 sec
+STB 1 : 290 260 (1920x1080 모니터 기준. EPG Banner를 점으로 잡음)	x+=640 / y+=360
+v16 기준 약 40초 후에 EPG Banner 올라옴.
+On time : 60s
+Off time : 5s
+Check time : 42s
+==> 500회 이상 없음!!

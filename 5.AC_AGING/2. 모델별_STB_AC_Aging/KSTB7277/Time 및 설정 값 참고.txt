@@ -1,0 +1,8 @@
+AC_AGING_SMART 설정 된 값
+
+ON time - 80sec 
+OFF time - 5sec
+Check time - 60sec
+횟수 - 500회 
+
+25회 확인 시 정상 동작 됨을 확인 

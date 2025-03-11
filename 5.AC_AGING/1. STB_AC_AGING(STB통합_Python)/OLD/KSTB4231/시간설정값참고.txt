@@ -1,0 +1,3 @@
+OnTime - 70sec
+OffTime - 5sec
+Check Time - 50sec

@@ -1,0 +1,6 @@
+2025.02.18 
+스마트뷰어 확인 설정 값 적용 파일
+
+Booting Time - 70sec
+Off Time - 5sec 
+Check Time - 50sec 

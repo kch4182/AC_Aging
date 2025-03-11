@@ -1,0 +1,11 @@
+사용방법
+
+1. Main 화면에 Viewer 전체화면
+1) SmartViewer : 3x3 Layout 전체화면
+2) IRIS : 3x3 Layout 전체화면 -> 전체화면
+=> 화면에 3x3 Layout으로 꽉 차있어야 함
+
+2. AC_GUI 설정 후 실행
+ 
+3. Power JIG Start 
+-> STB의 OFF Time을 Check해서 AC_Aging Check Cycle 실행 됨
