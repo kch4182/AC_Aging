@@ -1,4 +1,4 @@
-# Android_STB Exo_Player 로그 추출
+# Android Device 로그 추출
 import os
 import subprocess
 from datetime import datetime
@@ -77,7 +77,7 @@ def find_usb_device():
 
 def connect_wireless_device():
     while True:
-        ipv4 = input("STB IPV4 입력 : ").strip()
+        ipv4 = input("Device IPV4 입력 : ").strip()
         if ipv4.lower() in ("q", "quit", "exit"):
             raise SystemExit(0)
         if not ipv4:
@@ -103,7 +103,7 @@ def connect_wireless_device():
             return target
 
         print("무선 ADB 연결 실패")
-        print("USB 없이 무선으로 붙으려면 STB의 5555 포트가 열려 있어야 합니다.")
+        print("USB 없이 무선으로 붙으려면 기기의 5555 포트가 열려 있어야 합니다.")
         print("USB 연결 상태에서 한 번 `adb tcpip 5555`를 실행해야 하는 기기도 있습니다.")
 
 
@@ -161,7 +161,7 @@ def log_check(serial):
 
 
 def main():
-    print("STB 연결 실패 or 정상 작동하지 않아 키보드가 뜨지 않는다면 구글 설정에서 Gboard Keyboard로 변경해야 함")
+    print("Device 연결 실패 or 정상 작동하지 않아 키보드가 뜨지 않는다면 구글 설정에서 Gboard Keyboard로 변경해야 함")
     serial = connect_stb()
     set_gboard_keyboard(serial)
     log_check(serial)
